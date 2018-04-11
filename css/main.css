@@ -1,22 +1,22 @@
-*{   
-        margin:0;
-        padding:0;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html,
 body {
-  font-family:'Lateef';
-  background-color: #f2f2f2;
-  color:#606060;
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden;
-    }
+    font-family: 'Lateef';
+    background-color: #f2f2f2;
+    color: #606060;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
 
-section{
-  height: 100vh; ;
+section {
+    height: auto;
 }
 
 h2:after {
@@ -32,30 +32,35 @@ h2:after {
 /*-------------------------------------HEADER---------------------------------*/
 
 .backgroud {
-    background-image:url(img/6-min.jpg);
-    background-size:cover;
-    padding: 20px 20px;
-    background-position:center; 
+    height: 100vh;
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    padding: 0.5em 0.6em;
+    background-position: center;
+
 }
 
-.shade{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4));
-   border: 1px solid rgba(0, 0, 0, 0.3);
-   width:100%;
-   height:100%; 
-  
+.shade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .logo img {
-    position:relative ;
-    padding-top: 30px;
-     margin-right:40%;
-     width:6em;;
-     height:7em;
+    position: relative;
+    align-content: center;
+    margin-top: 2em;
+    margin-right: 45%;
+    z-index: 100;
+    width: 7em;
+    height: 7em;
 }
 
-.logo h1{
-   font-size: 3em;
+.logo h1 {
+    font-size: 3em;
+    margin: 0.3em 0em;
     font-family: 'Aref Ruqaa';
     text-align: center;
     color: black;
@@ -63,8 +68,9 @@ h2:after {
     color: #fff;
 }
 
-.logo p{
-    font-size: 2em;
+.logo p {
+    font-size: 2.5em;
+    margin: 0.3em 0em;
     font-family: 'Aref Ruqaa';
     text-align: center;
     letter-spacing: 2px;
@@ -72,7 +78,7 @@ h2:after {
 }
 
 .btn,
- btn:visited {
+btn:visited {
     background-color: rgba(10, 0, 0, 0.6);
     color: #fff;
     border: 2px solid rgba(10, 0, 0, 0.6);
@@ -80,27 +86,27 @@ h2:after {
     font-size: 1em;
     text-decoration: none;
     border-radius: 200px;
-    margin-top: 70px;
+    margin-top: 1em;
 }
 
-.logo-btn{
-    margin-right: 35%;
+.btn:hover {
+    background-color: rgba(2, 1, 5, 0.4);
 }
 
-.form-btn{
-    margin-right: 45%;
+.logo-btn {
+    margin-top: 1em;
 }
 
- .btn:hover{
-    background-color: rgba(2, 1, 5, 0.4) ;
-    }
-
+.form-btn {
+    margin-right: 40%;
+}
 
 /*------------------------------------- EXPERTIES ------------------------------------*/
 
-.Experties{
-    display:table-row;
-    background-color: #e9e8e8; 
+.Experties {
+    height: 620px;
+    display: table-row;
+    background-color: #e9e8e8;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 20px;
@@ -112,7 +118,7 @@ h2:after {
     padding-top: 10px;
     color: black;
     font-weight: bold;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
 
 .Experties h3 {
@@ -122,113 +128,122 @@ h2:after {
     font-weight: bold;
 }
 
-.Experties-descreption p{
-    padding-top:20px;
+.Experties-descreption p {
+    padding-top: 20px;
     font-size: 1em;
     letter-spacing: 1px;
     font-weight: 100;
 }
 
-.icon{
+.icon {
     font-size: 300%;
     display: block;
     text-align: center;
     font-weight: bold;
-    color:#F0864D;
+    color: #F0864D;
 }
 
 /*--------------------------------------------WORK----------------------------------------*/
 
-.my_work{
-    display:table-row;
+.my_work {
+    height: 620px;
+    display: table-row;
+    text-align: center;
 }
-.my_work h2{
+
+.my_work h2 {
     font-family: 'Aref Ruqaa';
     font-size: 2.5em;
     padding-top: 2%;
     color: black;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 10px;;
+
 }
 
 .img_work img {
     width: 18em;
     height: 13em;
-    margin-bottom:25px; 
-    margin-right: 1em;
+    margin: 1em 1em;
 }
 
-.img_work p{
-    font-size:1em;
-}
-/*--------------------------------------------FORM----------------------------------------*/
-
-.section-form{
-    display:table-row;
-    color: #4a4747;
-	background-color: #fbfbfb;   
+.img_work p {
+    font-size: 1em;
 }
 
-.section-form h2{
+/*--------------------------------------------FORM------------------300%----------------------*/
+
+.section-form {
+    height: 620px;
+    display: table-row;
+    color: #1f1f1f;
+    background-color: #fbfbfb;
+}
+
+.section-form h2 {
     font-family: 'Aref Ruqaa';
     text-align: center;
-    font-size: 2.5em;
-    padding-bottom: 5px;
+    font-size: 300%;
+    padding-bottom: 3%;
 }
-.section-form p{
+
+.section-form p {
     font-family: 'Aref Ruqaa';
     padding-top: 2px;
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
 }
 
-.contact-form{
-    
+.contact-form {
+
     width: 60%;
     margin: 0 auto;
-    }
+}
 
 input[type=text],
 input[type=email],
 select,
-textarea{
+textarea {
     font-size: 0.7em;
     width: 100%;
     padding: 7px;
     border-radius: 3px;
-    border: 1px solid #ccc;        
-    }
+    border: 1px solid #ccc;
+}
 
-textarea{
+textarea {
     font-size: 0.7em;
-    height: 70px;}
-    *:focus{outline: none;}
+    height: 70px;
+}
 
-.btn-form{
-margin-top: 15px; 
-margin-bottom: 15px; 
-    
+*:focus {
+    outline: none;
+}
+
+.btn-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 /*-------------------------------------FOOTER------------------------------------*/
 
-footer{
+footer {
     background-color: #5f5c5c;
     padding-top: 20px;
     font-size: 1em;
     color: #FFF;
     text-align: center;
     height: 100%;
-    
+
 }
 
-.icon-form{
+.icon-form {
     font-size: 150%;
     display: block;
     text-align: center;
-    color:#F0864D;
+    color: #F0864D;
 }
